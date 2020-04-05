@@ -16,7 +16,7 @@ ACoin::ACoin()
 	ModifierTrigger->OnComponentBeginOverlap.AddDynamic(this, &ACoin::OnOverlapBegin);
 	RootComponent = ModifierTrigger;
 	ScoreValue = 10.0f;
-	//Stephan is a loser
+	//Stephan is NOT loser
 }
 
 // Called when the game starts or when spawned
