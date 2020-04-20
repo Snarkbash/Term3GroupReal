@@ -48,7 +48,7 @@ ACppSideScrollerCharacter::ACppSideScrollerCharacter()
 	GetCharacterMovement()->GroundFriction = 3.f;
 	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetCharacterMovement()->MaxFlySpeed = 600.f;
-	//George Was HERE
+	
 	JumpMaxCount = 2;
 	MaxHealth = 50.0F;
 	MinFallDamageHeight = 500.0F;
